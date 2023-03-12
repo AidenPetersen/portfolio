@@ -23,42 +23,42 @@ const Projects = () => (
     <h3>Projects</h3>
     <div class="grid grid-cols-2 sm:grid-cols-1 gap-3">
       <Project
-        link="/projects/test"
+        link="/projects/senior_design"
         name="Senior Design Project"
-        technologies="TBD"
+        technologies="Sky130, Analog Design, Digital Design"
         from="#ffffff"
         to="#ffffff"
       />
       <Project
-        link="/projects/test"
+        link="/projects/crypto_coproc"
         name="Cryptographic Coprocessor"
         technologies="Verilog, Icarus Verilog, Make"
         from="#8D20B0"
         to="#1D6DDE"
       />
       <Project
-        link="/projects/test"
+        link="/projects/mips_proc"
         name="Pipelined MIPS Processor"
         technologies="VHDL, Modelsim, CPU Architecture"
         from="#00ff87"
         to="#60efff"
       />
       <Project
-        link="/projects/test"
-        name="CprE 480 Project"
+        link="/projects/sgp"
+        name="Simple Graphics Processing Unit"
         technologies="VHDL, Vivado, GPU Architecture"
         from="#ffffff"
         to="#ffffff"
       />
       <Project
-        link="/projects/test"
+        link="/projects/roomba"
         name="Roomba Navigation"
         technologies="C, Embedded Systems, Python"
         from="#313946"
         to="#3FAE4E"
       />
       <Project
-        link="/projects/test"
+        link="/projects/swimscript"
         name="Swimscript Parser"
         technologies="Rust, Nom, Parser Combinator"
         from="#BD6E2E"

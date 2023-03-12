@@ -7,8 +7,15 @@ import * as $0 from "./routes/_app.tsx";
 import * as $1 from "./routes/index.tsx";
 import * as $2 from "./routes/info/ethics.tsx";
 import * as $3 from "./routes/info/index.tsx";
-import * as $4 from "./routes/info/reflection.tsx";
-import * as $5 from "./routes/projects/test.tsx";
+import * as $4 from "./routes/info/reflection_cumulative.tsx";
+import * as $5 from "./routes/info/reflection_gened.tsx";
+import * as $6 from "./routes/projects/crypto_coproc.tsx";
+import * as $7 from "./routes/projects/mips_proc.tsx";
+import * as $8 from "./routes/projects/roomba.tsx";
+import * as $9 from "./routes/projects/senior_design.tsx";
+import * as $10 from "./routes/projects/sgp.tsx";
+import * as $11 from "./routes/projects/swimscript.tsx";
+import * as $12 from "./routes/projects/test.tsx";
 
 const manifest = {
   routes: {
@@ -16,8 +23,15 @@ const manifest = {
     "./routes/index.tsx": $1,
     "./routes/info/ethics.tsx": $2,
     "./routes/info/index.tsx": $3,
-    "./routes/info/reflection.tsx": $4,
-    "./routes/projects/test.tsx": $5,
+    "./routes/info/reflection_cumulative.tsx": $4,
+    "./routes/info/reflection_gened.tsx": $5,
+    "./routes/projects/crypto_coproc.tsx": $6,
+    "./routes/projects/mips_proc.tsx": $7,
+    "./routes/projects/roomba.tsx": $8,
+    "./routes/projects/senior_design.tsx": $9,
+    "./routes/projects/sgp.tsx": $10,
+    "./routes/projects/swimscript.tsx": $11,
+    "./routes/projects/test.tsx": $12,
   },
   islands: {},
   baseUrl: import.meta.url,

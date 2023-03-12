@@ -25,7 +25,7 @@ const Skills = () => (
         ]}
       />
       <Section
-        title="miscellaneous"
+        title="Miscellaneous"
         skills={[
           "Make",
           "Linux",
